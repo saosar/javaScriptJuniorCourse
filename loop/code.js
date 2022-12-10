@@ -78,6 +78,9 @@ for (let array in array2){   //FIRS ARRAY (ARRAY2)
     if (array ==2){    //POSITION #2 
 
         for (let array of array1){  //ANOTHER ARRAY (ARRAY1)
+            /* if (array == "maria"){
+                continue forRancio;
+            }*/ //SKIP maria <3
             document.write("LABEL data example array1 Inside: "+array + "<br>");
             //continue; //SKIP ONE TURN OF THE CYCLE
             //continue forRancio; //SKIP LOOP - COMPLETELY

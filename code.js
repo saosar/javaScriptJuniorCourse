@@ -1,1 +1,0 @@
-alert("we have js connected")
