@@ -1,0 +1,91 @@
+/* distribuir llaves en toda la página */
+.flex-container{  
+    display: flex;
+    flex-wrap:wrap;
+    color: #333;
+    font-family: sans-serif;
+}
+
+/* PARA QUE NO QUEDE DESPLAZADO IMAGEN */
+body {
+    overflow: hidden;
+}
+
+.flex-item{
+    text-align: center;
+    
+    flex-grow:1;
+    /* flex-basis: 320px; */
+    margin:50px;
+    max-width: 300px;
+    border: 5px solid #333;
+    /* padding top de cero 0 */
+    padding:  0 50px;
+}
+
+/* color cuando pasa por encima  y SOMBRITA con px*/
+.flex-item:hover{
+    border-color: #4459ce;
+    box-shadow: 0px 0px 13px #4459ce
+}
+
+/* cuando se le da click queda seleccionado */
+.flex-item:focus{
+    border-color: #4459ce;
+    box-shadow: 0px 0px 13px #4459ce
+}
+
+
+/* borde del recuadro que encierra las llaves */
+h2,h3{margin: 0 ;}
+
+h1{
+    text-align: center;
+    color:#171010;
+    font-size: 50px;
+    font-family: New Roman;
+}
+
+h3 {color: #999;}
+
+p b {color: #31a431;}
+
+.llave-img{
+    width: 300px;
+}
+
+
+/* BOTONCITO DE COMPRAR */
+form {
+    width:100%;
+    text-align: center;
+}
+
+
+input[type="submit"]{
+    background: #1b5515;
+    color: #fff;
+    border:none;
+    /* tamaño del cajon */
+    padding: 15px 50px;
+    /* tamaño letra */
+    font-size: 20px;
+    letter-spacing: 1;
+    /* toda la letra boton se ponga en mayuscula */
+}
+.ignora {
+    background: #aa2424;
+    color: #fff;
+    border:none;
+    /* tamaño del cajon */
+    padding: 15px 50px;
+    /* tamaño letra */
+    font-size: 20px;
+    letter-spacing: 1;
+}
+
+img {
+    /* ancho */
+    width: 300px ;  
+    height: 300px;
+}
