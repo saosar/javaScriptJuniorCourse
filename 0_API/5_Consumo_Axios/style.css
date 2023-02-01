@@ -1,0 +1,8 @@
+img {
+    /* ancho */
+    width: 10%; 
+    align-items: center;
+    justify-content: center; 
+    border-radius: 30%;
+    
+}
